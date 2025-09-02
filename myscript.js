@@ -9,4 +9,8 @@ $(document).ready(function() {
 	 $("#p1").click(function(){
     $(".disappear").hide();
   });
+  $("#p3").mouseenter(function(){
+ $("#p3").fadeOut();
+});
+
 });
